@@ -123,9 +123,10 @@ python -m evaluation.evaluate
 ---
 
 ## 🚀 Future Work
-- [ ]Replace simulated knowledge with real document collections
-- [ ]Add confidence scoring to responses
-- [ ]Expose the system via a REST API
+
+- [ ] Replace simulated knowledge with real document collections
+- [ ] Add confidence scoring to responses
+- [ ] Expose the system via a REST API
 - [ ] Scale evaluation with larger benchmark datasets
 
 ---
