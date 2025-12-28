@@ -104,8 +104,9 @@ pip install -r requirements.txt
 ### Run Interactive CLI
 ```bash
 python app.py
-Ask any question directly from the terminal.
 ```
+Ask any question directly from the terminal.
+
 
 ### Run Evaluation
 ```bash
@@ -129,10 +130,9 @@ python -m evaluation.evaluate
 
 ---
 
-##📌 Disclaimer
-This project focuses on system design and safety behavior, not state-of-the-art language modeling performance.
-
-Evaluation results are reported honestly on a small, controlled dataset.
+## 📌 Disclaimer
+- This project focuses on system design and safety behavior, not state-of-the-art language modeling performance.
+- Evaluation results are reported honestly on a small, controlled dataset.
 
 ---
 
