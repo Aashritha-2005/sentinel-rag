@@ -99,28 +99,40 @@ SentinelRAG was evaluated against a **raw LLM baseline**
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
-Run Interactive CLI
-bash
+### Run Interactive CLI
+```bash
 python app.py
 Ask any question directly from the terminal.
+```
 
-Run Evaluation
-bash
+### Run Evaluation
+```bash
 python -m evaluation.evaluate
-🧠 Design Principles
-Safety over fluency
-Refuse rather than hallucinate
-Observable decision-making
-Separation of concerns
-Evaluation-driven development
-🚀 Future Work
-Replace simulated knowledge with real document collections
-Add confidence scoring to responses
-Expose the system via a REST API
-Scale evaluation with larger benchmark datasets
-📌 Disclaimer
+```
+---
+
+## 🧠 Design Principles
+- Safety over fluency
+- Refuse rather than hallucinate
+- Observable decision-making
+- Separation of concerns
+- Evaluation-driven development
+---
+
+## 🚀 Future Work
+[]Replace simulated knowledge with real document collections
+[]Add confidence scoring to responses
+[]Expose the system via a REST API
+[]Scale evaluation with larger benchmark datasets
+
+---
+
+##📌 Disclaimer
 This project focuses on system design and safety behavior, not state-of-the-art language modeling performance.
 
 Evaluation results are reported honestly on a small, controlled dataset.
+
+---
 
